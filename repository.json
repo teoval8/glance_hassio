@@ -1,0 +1,12 @@
+{
+    "name": "Glance Hass.io Add-on",
+    "description": "Un dashboard self-hosted per Home Assistant.",
+    "url": "https://github.com/tuo-utente/glance-hassio-addon",
+    "arch": ["amd64", "armv7", "arm64"],
+    "version": "1.0.0",
+    "slug": "glance",
+    "startup": "services",
+    "boot": "auto",
+    "ingress": true,
+    "ingress_port": 8080
+}
