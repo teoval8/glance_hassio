@@ -1,0 +1,16 @@
+name: "Glance4HomeAssistant x86"
+description: "Glance Dashboard For Homeassistant"
+version: "1.0.1"
+slug: "glance4homeassistant_i386"
+init: false
+arch:
+  - i386
+startup: services
+ingress: true
+ingress_port: 8080
+panel_icon: "mdi:view-dashboard"
+panel_title: "Glance"
+map: 
+  - config:rw
+ports:
+  8080/tcp: 8080

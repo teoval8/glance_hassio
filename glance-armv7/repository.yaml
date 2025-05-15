@@ -1,0 +1,16 @@
+name: "Glance4HomeAssistant ARMv7"
+description: "Glance Dashboard For Homeassistant"
+version: "1.1.0"
+slug: "glance4homeassistant_armv7"
+init: false
+arch:
+  - armv7
+startup: services
+ingress: true
+ingress_port: 8080
+panel_icon: "mdi:view-dashboard"
+panel_title: "Glance"
+map: 
+  - config:rw
+ports:
+  8080/tcp: 8080
